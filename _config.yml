@@ -18,19 +18,19 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 locale                   : "en-US"
 title                    : "Portfolio"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "Version 1.0" # site tagline that appears below site title in masthead
 name                     : "Mohamed A. Abdelhady"
-description              : "Personal website."
-url                      : # the base hostname & protocol for your site e.g. "https://adelizer.github.io."
+description              : "A collection of publications, projects, and blog posts"
+url                      : "https://adelizer.github.io." # the base hostname & protocol for your site e.g. "https://adelizer.github.io."
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+repository               : "adelizer/adelizer.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : "/assets/images/background.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : # false (default), " disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -83,8 +83,8 @@ yandex_site_verification :
 naver_site_verification  :
 
 # Social Sharing
-twitter:
-  username               :
+twitter: 
+  username               : "adelizer0"
 facebook:
   username               :
   app_id                 :
@@ -108,29 +108,29 @@ analytics:
 # Site Author
 author:
   name             : "Mohamed A. Abdelhady"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Machine Learning and Robotics Developer"
   location         : "Amsterdam, NL"
-  email            :
+  email            : "m.adel.abdelhady@gmail.com"
   links:
     - label: "email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: m.adel.abdelhady@gmail.com
+      #url: m.adel.abdelhady@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://adelizer.github.io/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+      url: "https://twitter.com/adelizer0"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://github.com/adelizer"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://nl.linkedin.com/in/maabdelhady"
 
 # Site Footer
 footer:
@@ -277,7 +277,6 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
 
 # Defaults
 defaults:
